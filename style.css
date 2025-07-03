@@ -170,3 +170,27 @@ footer{
     font-size: 18px;
     color: #ffffff;
 }
+
+@media (max-width: 992px){
+    .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px 0px;  
+  padding: 0 50px;   
+    align-items: center;
+    gap: 30px;
+}
+.giasimg{
+    width: 100%;
+    height: auto;
+}
+    .expbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 0 200px;
+  gap: 40px;
+}
+}
